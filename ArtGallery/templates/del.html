@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Gallery | Delete Customer</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/styles/newcust.css">  -->
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/newcust.css')}}">
+</head>
+<body>
+<div class="container" >  
+  <form id="contact" method="POST" action="/del">
+    <h3>Delete Customer</h3><br>
+    <fieldset>
+      <input placeholder="Your ID" type="text" tabindex="1" name='DID'  >
+    </fieldset>
+   
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" >Delete</button>
+      <p style="color: red;">{{msg}}</p>
+    </fieldset>
+         <fieldset>
+      <button name="submit" type="submit" id="contact-submit" ><a href='/customers' style='text-decoration: none;'>Customers List</a></button>
+    </fieldset>
+  </form>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Art Gallery | Customers</title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/customers.css')}}"> 
+</head>
+<body>
+<body>
+  <h1 style="background-color: #282936">Customers </h1>
+
+  <div class="table-container">
+    <div class="table-header">
+    <form action='/gonewcust'>
+      <button class="add-another btn btn-success">Enter New Customer</button>
+      </form>
+      <form action='/godel'>
+      <button class="add-another btn btn-success">Delete Customer</button>
+      </form>
+    </div>
+    <br>
+    <table class="customer-table table table-hover" style="width:100%" border="1 ">
+      <thead >
+        <tr>
+          <th><h3>Customer ID</h3></th>
+          <th><h3>Name</h3></th>
+          <th><h3>Address</h3></th>
+          <!-- <th><h3>Amount</h3></th> -->
+        </tr>
+      </thead>
+      <thead>
+      {% for i in range(z) %}
+        <tr>
+          <td><h3>{{c[i][0]}}</h3></td>
+          <td><h3>{{c[i][1]}}</h3></td>
+          <td><h3>{{c[i][2]}}</h3></td>
+          <!-- <td><h3>Rs. {{c[i][3]}}</h3></td> -->
+        </tr>
+        {% endfor %}
+      </thead>
+    </table>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</body>
+
+</body>
+</html>

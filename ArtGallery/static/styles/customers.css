@@ -1,0 +1,121 @@
+
+body {
+  font-family: 'Mukta', sans-serif;
+  font-size: .8rem;
+  background: "img/arts.jpg"; 
+}
+
+.form-container {
+  display: none;
+}
+
+.table-container, .DataTable {
+  position: relative;
+  padding: 2%;
+  overflow-y: hidden;
+}
+
+
+h1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  margin: 0px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 3em;
+  vertical-align: center;
+  background-color: #727272;
+  color: #FFFFFF;
+}
+
+h2 {
+  margin-top: 0;
+  width: 50%;
+  float: left;
+}
+.table-header button {
+  float: right;
+}
+.table-header {
+  overflow: hidden;
+}
+#DataTables_Table_0_paginate{
+  float: right;
+}
+#DataTables_Table_0_filter label {
+  float: right;
+}
+
+.view, .add-customer {
+  margin-top: 200px;
+  margin-left: 25%;
+  font-size: 2em;
+}
+
+.message {
+  display: none;
+  position:fixed;
+  bottom:0;
+  right:0;
+  padding: 10px;
+  background-color: #494545;
+  color: #FFFFFF;
+  font-size: 1.3em;
+  border-style: ridge;
+  border-width: 2px 0 0 2px;
+  border-color: #3A3838;
+  border-radius: 10%;
+  width: 10%;
+}
+
+.error-msg {
+  color: #C93131;
+}
+
+.form-container form {
+  width: 40%;
+  padding: 2% 2% 1% 2%;
+  margin-left: 30%;
+}
+.form-container {
+  padding-bottom: 30px;
+}
+.form-container input {
+  padding: 3px;
+  width: 300px;
+}
+.form-container .rdo-gender {
+  vertical-align: top;
+  width: auto;
+}
+.form-container .radio-gender {
+  padding-left: 10px;
+}
+.form-container span {
+  padding-left: 8px;
+}
+
+.add-button, .update-button, .reset-button {
+  float: right;
+  margin-right: 10px;
+}
+  th, td {
+    border: 1px solid ;
+    border-collapse: collapse;
+    padding: 5px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding:5px;
+    text-align: left;
+    background-color: #ff9900;
+    color: white;
+}
+
+table {border-collapse: collapse;}

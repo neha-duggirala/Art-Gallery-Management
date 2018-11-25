@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Gallery | New Customer</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/styles/newcust.css">  -->
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/newcust.css')}}">
+</head>
+<body>
+<div class="container" >  
+  <form id="contact" method="POST" action="/newcustomer">
+    <h3>New Customer Form</h3><br>
+    <fieldset>
+      <input placeholder="Your ID" type="text" tabindex="1" name='XID'  >
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Name" type="text" tabindex="1" name='x_name'  >
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Address" type="text" tabindex="1"  name='addre'   >
+    </fieldset>
+   
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" >Submit</button>
+      <p style="color: red;">{{msg}}</p>
+    </fieldset>
+     <fieldset>
+      <button name="submit" type="submit" id="contact-submit" ><a href='/customers' style='text-decoration: none;'>Customers List</a></button>
+    </fieldsetss>
+  </form>
+ <!--    <form id="contact" method="POST"  action="/customers">
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" >Customers List</button>
+    </fieldset>
+    </form> -->
+  
+</div>
+</body>
+</html>
