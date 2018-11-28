@@ -31,3 +31,4 @@ relationship diagram of art gallery management system shows all the visual instr
 tables and the relations between the customer, arts, artworks etc. It uses structured data and to define
 the relations between structured data groups of art gallery management system functionalities. The main
 entities of art gallery management system are artworks, arts, customer details, and groups.</br>
+![](https://github.com/neha-duggirala/Art-Gallery-Management/blob/master/ArtGallery/screenshots/page/ER%20(1).jpeg)
