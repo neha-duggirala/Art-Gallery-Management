@@ -2,6 +2,13 @@
 This is a simple DBMS project which allows the users to view the art and to fill in the customer forms</br>
 ![](https://github.com/neha-duggirala/Art-Gallery-Management/blob/master/ArtGallery/screenshots/page/HomePage.png)</br>
 
+**Pages**
+![](https://github.com/neha-duggirala/Art-Gallery-Management/blob/master/ArtGallery/screenshots/page/ArtWorks.png)<br>
+![](https://github.com/neha-duggirala/Art-Gallery-Management/blob/master/ArtGallery/screenshots/page/Artists.png)<br>
+![](https://github.com/neha-duggirala/Art-Gallery-Management/blob/master/ArtGallery/screenshots/page/CustomersTable.png)<br>
+![](https://github.com/neha-duggirala/Art-Gallery-Management/blob/master/ArtGallery/screenshots/page/NewCust.png)<br>
+![](https://github.com/neha-duggirala/Art-Gallery-Management/blob/master/ArtGallery/screenshots/page/twoTablesRetreival.png)<br>
+![](https://github.com/neha-duggirala/Art-Gallery-Management/blob/master/ArtGallery/screenshots/page/DelCust.png)<br>
 **Objective:**</br>
 Art Gallery is an application, which is used to display and sell artworks of artist irrespective of their
 nationality, gender, and other narrow consideration. Customers can register online for being a member of
